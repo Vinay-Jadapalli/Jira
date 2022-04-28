@@ -4,9 +4,7 @@ import './Sidebar.css'
 import {NavLink} from 'react-router-dom';
 import Avatar from "./avatar.svg";
 
-
 function Test() {
-
   const Design = {
     width: "32px",
     height: "32px",
