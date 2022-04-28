@@ -1,6 +1,6 @@
 import React from 'react'
-import './style.css';
-import './sidebar.css'
+import './Style.css';
+import './Sidebar.css'
 import {NavLink} from 'react-router-dom';
 import Avatar from "./avatar.svg";
 
@@ -96,7 +96,7 @@ function Test() {
               <div className="dropdown-content">
                 <NavLink to="#">Board</NavLink>
                 <NavLink to="#">Access</NavLink>
-                <NavLink to="#">Issue Type</NavLink>
+                <NavLink to="#">Issue Types</NavLink>
               </div>
             </li>
           </div>
