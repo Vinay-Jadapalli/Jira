@@ -1,11 +1,11 @@
 import React from 'react'
-import './index.css';
-import './App.css'
+import './style.css';
+import './sidebar.css'
 import {NavLink} from 'react-router-dom';
 import Avatar from "./avatar.svg";
 
 
-function test() {
+function Test() {
 
   const Design = {
     width: "32px",
@@ -106,4 +106,4 @@ function test() {
   )
 }
 
-export default test;
+export default Test;
