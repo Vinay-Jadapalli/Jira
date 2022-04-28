@@ -18,7 +18,7 @@ function Test() {
       <div className="area"></div>
       <nav className="main-menu">
         <ul>
-          <div id="mySidebar" class="sidebar">
+          <div id="mySidebar" className="sidebar">
             <li><img src={Avatar} className='m-3' style={Design} />
               <span style={Design}>ELIT</span>software Project
             </li>
