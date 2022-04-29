@@ -7,12 +7,12 @@ import CreateIssue from './Components/hasib/CreateIssue';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/createissue' element={<CreateIssue />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
