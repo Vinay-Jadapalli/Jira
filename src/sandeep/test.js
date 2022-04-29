@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style.css';
 import './Sidebar.css'
-import {NavLink} from 'react-router-dom';
+// import {NavLink} from 'react-router-dom';
 import Avatar from "./avatar.svg";
 
 function Test() {
@@ -25,27 +25,27 @@ function Test() {
             <div className="dropdown">
               <button className="dropbtn ">PLANNING</button>
               <div className="dropdown-content">
-                <NavLink to="#">RoadMap</NavLink>
-                <NavLink to="#">Board</NavLink>
+                <a href="#">RoadMap</a>
+                <a href="#">Board</a>
               </div>
             </div>
 
             <li>
-              <NavLink to="#">
+              <a href="#">
                 <i className="fa fa-map-marker" aria-hidden="true"></i>
                 <span className="nav-text">
                   RoadMap
                 </span>
-              </NavLink>
+              </a>
             </li>
 
             <li className="has-subnav">
-              <NavLink to="#">
+              <a href="#">
                 <i className="fa fa-clipboard" aria-hidden="true"></i>
                 <span className="nav-text">
                   Board
                 </span>
-              </NavLink>
+              </a>
             </li>
 
             <hr />
@@ -53,36 +53,36 @@ function Test() {
             <div className="dropdown">
               <span className="dropbtn m-2">DEVELOPMENT</span>
               <div className="dropdown-content">
-                <NavLink to="#">Code</NavLink>
+                <a href="#">Code</a>
               </div>
             </div>
             
             <li className="has-subnav">
-              <NavLink to="#">
+              <a href="#">
                 <i className="fa fa-code fa-2x"></i>
                 <span className="nav-text">
                   Code
                 </span>
-              </NavLink>
+              </a>
             </li>
             <hr />
 
             <li className="has-subnav">
-              <NavLink to="#">
+              <a href="#">
                 <i className="fa fa-book" aria-hidden="true"></i>
                 <span className="nav-text">
                   Project Pages
                 </span>
-              </NavLink>
+              </a>
 
             </li>
             <li>
-              <NavLink to="#">
+              <a href="#">
                 <i className="fa fa-file" aria-hidden="true"></i>
                 <span className="nav-text">
                   Add Shortcut
                 </span>
-              </NavLink>
+              </a>
             </li>
 
             <li className="dropdown">
@@ -92,9 +92,9 @@ function Test() {
               </span>
 
               <div className="dropdown-content">
-                <NavLink to="#">Board</NavLink>
-                <NavLink to="#">Access</NavLink>
-                <NavLink to="#">Issue Types</NavLink>
+                <a href="#">Board</a>
+                <a href="#">Access</a>
+                <a href="#">Issue Types</a>
               </div>
             </li>
           </div>
