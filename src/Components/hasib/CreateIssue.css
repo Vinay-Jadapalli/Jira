@@ -1,0 +1,82 @@
+.main {
+  margin: 20px;
+}
+
+.top{
+  display: flex;
+  padding: 15px;
+  background-color: white;
+}
+
+.top > h3{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.import {
+  margin-left: 73%;
+  /* padding-top: 20px; */
+  /* padding: 23px; */
+}
+
+.contained {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+ p{
+  color: rgb(135, 130, 130);
+  font-weight: 500;
+  /* padding-top: 50px; */
+
+  /* padding-bottom: 20px; */
+}
+
+.input-group {
+  border: 1px solid rgb(223, 219, 219);
+}
+
+
+.selectItem {
+  width: 25%;
+}
+
+.message {
+  margin-top: 30px;
+}
+
+.form-select{
+  background-color: rgb(244, 243, 243);
+  border: none;
+}
+
+.browse {
+  border: 1px solid rgb(150, 148, 148);
+  border-style: dashed;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.browse {
+display: flex;
+justify-content: center;
+  
+}
+
+ span {
+  color: rgb(136, 133, 133);
+  margin: 0px 10px 0px 10px;
+}
+
+.fixed-bottom {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+
+img{
+  width: 30px;
+}

@@ -1,14 +1,18 @@
 
 import './App.css';
 import Home from './Components/Cart/Home';
-import Test from './sandeep/test'
+import {Routes, Route} from 'react-router-dom';
+import CreateIssue from './Components/hasib/CreateIssue';
+
 
 function App() {
   return (
-    <div className="App">
-     <Home/>
-     <Test/>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/createissue' element={<CreateIssue />} />
+      </Routes>
+    </>
   );
 }
 
