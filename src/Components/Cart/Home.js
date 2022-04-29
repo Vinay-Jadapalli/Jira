@@ -6,7 +6,8 @@ import Circle from "../../img/Cricle.png"
 import Teams from "../../img/Teams.jpg"
 import Time from "../../img/Timesheet.png"
 import {Link} from 'react-router-dom';
-import Test from '../../sandeep/Test';
+import Test from '../../sandeep/test';
+
 
 const Home = () => {
 
